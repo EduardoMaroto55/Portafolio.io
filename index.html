@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- Iconos Awasome Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+            
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- Style sheet -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p class="logo-texto">Dev Eduardo</p>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#Home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduccion -->
+    <section class="intro-section">
+        <section class="intro" id="Home">
+                <h1 class="section__title section__title--intro">
+                    Hola, soy<strong>Eduardo Maroto</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Web Developer </p>
+                <img src="img/devEd.jpg" alt="Foto de Eduardo Maroto en el mar" class="intro-image">
+            </section>
+    </section>
+   
+
+    <!-- Servicios -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design</h3>
+                <p>Comprendo las necesidades y objetivos únicos de cada cliente y creó soluciones digitales personalizadas. 
+                    Desde el diseño de interfaces atractivas hasta la implementación de funcionalidades robustas, me dedico a garantizar que cada sitio web que 
+                    construyo cumpla con los más altos estándares de calidad y usabilidad.</p>
+            </div> <!-- / service -->
+
+
+            <div class="service">
+                <h3>Development</h3>
+                <p>Utilizo tecnologías y marcos de trabajo para crear sitios web responsivos y adaptables a diferentes dispositivos. 
+                    Mi experiencia abarca desde el desarrollo front-end, utilizando HTML, CSS y JavaScript, hasta el desarrollo back-end, utilizando lenguajes como PHP,
+                     junto con bases de datos como MySQL y MongoDB.</p>
+            </div> 
+
+            <div class="service">
+                <h3>Learn</h3>
+                <p>Estoy constantemente aprendiendo y actualizándome para estar al tanto de las últimas tendencias y mejores prácticas en el campo del desarrollo web.
+                     Creo en la importancia de la colaboración y la comunicación efectiva con los clientes para garantizar que sus visiones se conviertan en realidad.</p>
+          
+            </div> <!-- / service -->
+        </div><!-- / services-->
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+    <!-- Sobre mi -->
+    <section class="about-me-bg">
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Desarrollador Estudiante en Costa Rica</p>
+
+            <div class="about-me__body">
+                <p>Soy un estudiante e</p>
+                <p>Soy un apasionado estudiante de la Universidad Latina con un firme deseo de convertirme en un 
+                    talentoso desarrollador web. Me fascina el mundo digital y la capacidad que tiene para transformar y 
+                    mejorar la forma en que interactuamos y compartimos información.</p>
+            </div>
+
+            <img src="img/dev-beach-serv-bg.jpg" alt="jane arrecostada a un  bus" class="about-me__img">
+        </section>
+    </section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">Biblioteca de mis trabajos</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-items.html" class="portfolio__item">
+                <img src="img/port-item1.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+
+           
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <a href="mailto:edu5.maroto@hotmail.com" class="footer__link">edu5.maroto@hotmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/eduardo-maroto/">
+                    <i class="fab fa-brands fa-linkedin"></i>
+                </a>  
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://discord.com">
+                    <i class="fab fa-brands fab fa-discord"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/EduardoMaroto7">
+                    <i class="fab fa-brands fab fa-twitter"></i>
+                 </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/EduardoMaroto55">
+                    <i class="fab fa-brands fab fa-github"></i>
+            </a>
+        </li>
+        </ul>
+     
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
